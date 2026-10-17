@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller 产物：仓库只留源码与 lrdp.spec，exe 走 GitHub Releases
+build/
+dist/
+
+# 运行期数据（验证码、证书、连接历史、日志）
+lan_remote_data/
+
+# 打包冒烟测试目录
+dist_test/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
